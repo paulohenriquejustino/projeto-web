@@ -1,0 +1,46 @@
+*{
+    font-family: cursive;
+}
+ main {
+    width: 950px;
+    margin: 0px auto;
+}
+
+
+.artigo-1 {
+    width: 300px;
+    border: 1px solid red;
+
+    /*Espaçamento externo*/
+    padding: 20px;
+
+    float: right;
+
+
+}
+
+.artigo-2 {
+    width: 300px;
+    border: 1px solid blue;
+    /*Espaçamento externo */
+    margin-right: 20px;
+
+    float: right;
+}
+
+
+.artigo-3 {
+    width: 300px;
+    border: 1px solid green;
+
+    /*Fluxo*/
+    float: right;
+}
+
+
+.espacamento {
+    /*Espaçamento interno*/
+    padding: 30px;
+
+    float: left;
+}

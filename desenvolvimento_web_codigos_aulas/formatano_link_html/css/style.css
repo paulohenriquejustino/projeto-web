@@ -1,0 +1,39 @@
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+p {
+    font-family: "Roboto", sans-serif; 
+}
+
+/* É IMPORTANTE MANTER ESSE ORDEM */
+a {
+    font-size: 1.5em;
+    padding: 3px;
+    text-decoration: none;
+}
+
+/* ESTADO: NÃO VISITADO */
+a:link {
+    color: #dd7f04;
+}
+
+/*ESTADO: VISITADO */
+a:visited{
+    color: blue;
+}
+
+/*ESTADO: HOVER
+(QUANDO PASSAMOS O MOUSE SOBRE O LINK*/
+a.hover{
+    color: black;
+}
+
+/* ESTADO: ATIVO
+(clicar e segura para ver*/
+a:active {
+    color: #07b34f;
+}
+
+

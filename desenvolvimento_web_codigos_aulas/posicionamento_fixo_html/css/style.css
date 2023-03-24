@@ -1,0 +1,28 @@
+body {
+    height: 2000px; /* Definindo uma altura para o corpo da página */
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    height: 50px;
+    position: fixed; /* Definindo o posicionamento fixo */
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+
+.content {
+    margin-top: 60px; /* Adicionando uma margem para evitar que o conteúdo fique por baixo do cabeçalho */
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    height: 50px;
+    position: fixed; /* Definindo o posicionamento fixo */
+    bottom: 0;
+    left: 0;
+    right: 0;
+}

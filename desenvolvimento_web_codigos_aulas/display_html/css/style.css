@@ -1,0 +1,41 @@
+h1 {
+    font-family: 'Roboto', sans-serif; 
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+/*Formantando Float*/
+.disp1 {
+    display: inline;
+    width: 1000px;
+    height: 1000px;
+    padding: 5px;
+    background-color: gold;
+    font-size: x-large;
+}
+
+
+.disp2 {
+    display: inline-block
+    width 200px;
+    height: 150px;
+    padding: 5px;
+    background-color: aqua;
+    font-size: x-large;
+}
+
+.disp3{
+    display: block;
+    width: 400px;
+    height: 150px;
+    padding: 5px;
+    background-color: blueviolet;
+    font-size: x-large;
+}

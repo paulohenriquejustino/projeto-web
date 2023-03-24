@@ -1,0 +1,34 @@
+{
+	"folders": [
+		{
+			"path": "../../atividades_html"
+		},
+		{
+			"path": "../../aulas_chatgpt"
+		},
+		{
+			"path": "../../curso_parte_python"
+		},
+		{
+			"path": "../../desenvolvimento_web_codigos_aulas"
+		},
+		{
+			"path": "../../desenvolvimento_web_projetos"
+		},
+		{
+			"path": "../../documentos_aulas_em_txt"
+		},
+		{
+			"path": "../../gimp"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../minha_landingpage"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "meus_projetos"
+	}
+}

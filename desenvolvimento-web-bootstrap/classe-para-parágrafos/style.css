@@ -1,0 +1,28 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold; /*Sem efeito*/
+    /*fpmt-weight: bold !important;
+    !important; faz com que a regra seja preferencial*/
+}
+
+section {
+    width: 80%;
+    margin: 0px auto;
+}
+
+.justificado {
+    text-align: justify;
+}
+
+.blockquote {
+    color: blueviolet;
+}
+
+.text-center {
+    color: red;
+}
+
+.text-end {
+    color: aqua;
+}
+

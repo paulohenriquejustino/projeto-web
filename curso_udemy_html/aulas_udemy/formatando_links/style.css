@@ -1,0 +1,17 @@
+/*Defindo cor para link não visitados*/
+a:link {
+   color: aqua;
+}
+
+/*Defindo cor para link visitados*/
+a:visited {
+    color: red;
+}
+/*Defindo cor quando passa o mouse por cima do link*/
+a:hover{
+    color: greenyellow;
+}
+/*Defindo cor para link ativos*/
+a:active {
+    color: blueviolet;
+}

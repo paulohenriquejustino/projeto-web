@@ -1,0 +1,23 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    color: goldenrod;
+    font-size: 1.2em;
+
+    padding: 20px;
+    margin-top: 50px;
+
+    border: 9px solid green;
+}
+
+.artigo {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 80%;
+    height: 200px;
+    margin: 30px;
+    border: 1px solid red;
+    padding: 20px;
+}

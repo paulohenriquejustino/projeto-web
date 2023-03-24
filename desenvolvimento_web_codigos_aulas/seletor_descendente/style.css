@@ -1,0 +1,13 @@
+* {
+    font-family: cursive;
+}
+
+main ul li a {
+    color: greenyellow;
+    font-size: 40px;
+}
+
+main p a {
+    color: brown;
+}
+

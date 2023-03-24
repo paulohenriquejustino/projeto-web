@@ -1,0 +1,88 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+header {
+    background-color:black;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+
+}
+
+.titulo {
+    text-align: center;
+    color: white;
+     
+}
+
+.navegacao li {
+    display: inline-block;
+    margin-right: 0,5em;
+}
+
+.navegacao li a {
+    color: white;
+    font-size: 20px;
+}
+
+.imagem {
+    width: 50%;
+    
+}
+
+#sobre {
+    text-align: center;
+    margin-top: 20px;  
+}
+
+#personagens {
+    margin-top: 250px;  
+}
+
+#episodios {
+    margin-top: 250px;
+}
+
+#assistir {
+    margin-top: 250px;
+}
+
+.letra li {
+    font-size: 20px;
+}
+
+.letra li a {
+    color: black;
+}
+
+
+.temporada li {
+    font-size: 18px;
+}
+
+
+.personagens li {
+    font-size: 18px;
+}
+
+.paragrafo p {
+    font-size: 18px;
+}
+
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+
+}
+
+
+
+

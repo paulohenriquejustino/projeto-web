@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: gray;
+    font-family: monospace;
+    color: whitesmoke;
+}
+
+h1{
+    font-family: cursive;
+    font-weight: bold;
+}
+
+h5 {
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+p{
+    width: 50%;
+}

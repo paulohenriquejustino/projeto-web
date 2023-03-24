@@ -1,0 +1,130 @@
+/*Limpando as formatações padrão*/
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: whitesmoke;
+}
+
+/*Layout*/
+#area-cabecalho {
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+
+#area-logo, #area-menu {
+    padding: 10px;
+}
+
+#area-principal { 
+    width: 920px;
+    margin: 0 auto;
+}
+
+#area-conteudos {
+    width: 660px;
+    float: left;
+    margin-top: 20px;
+}
+
+#area-lateral {
+    width: 240px;
+    float: right;
+    background: #FFF;
+}
+
+
+
+#rodape{
+    background: #ccc;
+    clear: both;
+    padding: 15px;
+    text-align: center;
+    
+}
+.poste {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+.img1 {
+    margin-top: 20px;
+}
+
+.titulo-poste-recente{
+    color: #000000;
+    background: rgb(191, 191, 191);
+    
+}
+
+#area-lateral{
+    margin-top: 20px;
+}
+
+#area-lateral .cor-leia-mais{
+    color: #f7b600;
+    
+}
+
+#cor {
+    color: #f7b600;
+    
+}
+
+#postagem-recentes1 {
+    margin-top: 3px;
+    margin-bottom: 10px;
+    
+
+}
+
+#categorias {
+    margin-top: 20px;
+}
+
+
+
+
+
+
+/*TERMINA AQUI*/
+
+/*Formatação Menu*/
+a:link, a:visited {
+    color: #FFF;
+}
+
+a:hover {
+    color: #f7b600;
+    background: white;
+}
+
+
+
+
+
+/*Formatações gerais*/
+h1 {
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+.branco {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*TERMMINAR AQUI*/
+
+
+

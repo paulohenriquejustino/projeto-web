@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../atividades_html"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "desenvolvimento_web_codigos_aulas"
+	}
+}

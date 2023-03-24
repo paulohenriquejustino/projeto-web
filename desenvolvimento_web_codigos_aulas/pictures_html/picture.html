@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exemplo de tag Picture em HTML</title>
+</head>
+<body>
+	<h1>Tag Picture em HTML</h1>
+
+	<p>A tag &lt;picture&gt; é usada para exibir imagens em uma página web. É uma maneira de especificar diferentes versões de uma imagem para diferentes tamanhos de tela ou resoluções, para garantir que a imagem seja exibida de maneira apropriada em qualquer dispositivo. A tag &lt;picture&gt; trabalha em conjunto com a tag &lt;source&gt;, que especifica a imagem para ser usada com base nas condições do dispositivo.</p>
+
+	<p>Aqui está um exemplo de como a tag &lt;picture&gt; pode ser usada:</p>
+
+	<picture>
+		<source media="(min-width: 800px)" srcset="https://blogs.correiobraziliense.com.br/proximocapitulo/wp-content/uploads/sites/27/2018/01/sobrenatural-550x298.jpg">
+		<source media="(min-width: 400px)" srcset="https://blogs.correiobraziliense.com.br/proximocapitulo/wp-content/uploads/sites/27/2018/01/sobrenatural-550x298.jpg">
+		<img src="https://blogs.correiobraziliense.com.br/proximocapitulo/wp-content/uploads/sites/27/2018/01/sobrenatural-550x298.jpg" alt="Descrição da imagem" style="width: auto;">
+	</picture>
+
+	<p>No exemplo acima, a tag &lt;picture&gt; contém três elementos filhos: duas tags &lt;source&gt; e uma tag &lt;img&gt;. Cada tag &lt;source&gt; especifica uma versão diferente da imagem, com base na largura mínima da tela. A tag &lt;img&gt; é usada como um fallback para navegadores que não suportam a tag &lt;picture&gt; ou &lt;source&gt;.</p>
+
+	<p>É importante notar que a tag &lt;picture&gt; e &lt;source&gt; são suportados por navegadores modernos, mas nem todos os navegadores antigos podem suportá-los. Nesse caso, a imagem será exibida usando a tag &lt;img&gt;. Portanto, é importante fornecer uma imagem de fallback para garantir que a imagem seja exibida em todos os dispositivos.</p>
+</body>
+</html>

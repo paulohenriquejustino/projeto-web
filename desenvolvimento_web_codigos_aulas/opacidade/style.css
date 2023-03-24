@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+main {
+    /*Imagem para fundo da seção*/
+    background-image: url(../opacidade/cr76.svg);
+   
+    background-repeat: repeat;
+}
+
+h2 {
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 4%;
+}
+
+section {
+    width: 80%;
+    height: 400px;
+}
+
+article {
+    width: 55%;
+    float: left;
+    border:  1px solid grey;
+    padding: 2%;
+    margin-left: 5%;
+    /*rgba a = canal alpha (transparência)*/
+    background: rgba(0, 102, 0, 0.5);
+}
+
+footer {
+    clear: both;
+    background-color: #333;
+    color: #fff;
+    padding: 2%;
+    text-align: center;
+}

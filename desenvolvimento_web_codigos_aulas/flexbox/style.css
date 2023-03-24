@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 200px;
+    background-color: rgb(226, 223, 223);
+    font-size: 2em;
+    margin: 0px auto;
+}
+
+#container section {
+    background: #fff;
+    height: 100%;
+    width: 80%;
+    margin: 0px auto;
+
+    /*Habilita o Flex*/
+    display: flex;
+
+    flex-direction: row;
+}

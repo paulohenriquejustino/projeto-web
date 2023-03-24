@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../aulas_chatgpt"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "minha_landingpage"
+	}
+}

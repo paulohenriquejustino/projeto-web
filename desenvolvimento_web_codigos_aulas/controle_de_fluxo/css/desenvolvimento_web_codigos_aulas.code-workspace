@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../desenvolvimento_web_projetos"
+		},
+		{
+			"path": "../../../meus_projetos"
+		},
+		{
+			"path": "../../../minha_landingpage"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "desenvolvimento_web_codigos_aulas"
+	}
+}
