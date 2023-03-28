@@ -1,0 +1,8 @@
+main {
+    width: 80%;
+    height: 50vh;
+    margin: 0px auto;
+    background-color: #ffedcd;
+    font-family: cursive;
+    font-weight: bold !important;
+}
