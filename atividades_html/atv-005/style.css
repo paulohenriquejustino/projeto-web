@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #836FFF !important;
+}
+
+main {
+    display: flex;
+    margin: 0px auto;
+    width: 70%;
+    height: 900px;
+    border: red 5px solid;
+    margin-top: 20px;
+}
