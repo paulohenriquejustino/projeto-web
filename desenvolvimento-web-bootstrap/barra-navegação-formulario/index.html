@@ -16,6 +16,44 @@
             <h1 class="display-5 p-2">Barra de Navegação com formulário</h1>
             <hr>
         </section>
+
+        <header>
+            <!--Background com Dark e Light-->
+            <nav class="navbar navbar-expand-sm navbar-dark bg-info p-2">
+                <a href="" class="navbar-brand">EMPRESA X</a>
+
+                <!--Meu Sanduiche (Hamburger)
+                data-bs-toogle: indica que o botão pressiando apresentará o menu
+                data-bs-target define o que vamos mostras através do meu id -->
+
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-target">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!--Colapsando o menu-->
+                <div class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu-target">
+                    <!--Alinhamento do Menu Para Direita
+                    margem esquerda automática-->
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a href="#" class="nav-link">Página Inicial</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Produtos</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Galeria</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+                    </ul>
+                    <!--Criar o Formulário
+                    d-flex: organiza o conteúdo do formílario-->
+                    <form action="" class="d-flex">
+                        <input type="search" class="form-control me-2" placeholder="pesquisar...">
+                        <button class="btn btn-outline-light">Ok</button>
+                    </form>
+
+                </div>
+                
+
+
+
+            </nav>
+        </header>
     </main>
 </body>
 </html>

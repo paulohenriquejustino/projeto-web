@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com listas</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+</head>
+<body>
+    <main class="container">
+        <h1 class="display-5 mt-4">Estilizando Formalários</h1>
+        <form action="">
+            <section class="form-group p-2">
+                <label for="Usuários">Usuários</label>
+                <input type="text" class="form-control form-control-sm" id="usuario" placeholder="Digite seu usuário">
+            </section>
+
+            <section class="form-group ps-2">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Digite seu email">
+            </section><hr>
+
+            <!--Select-->
+            <h1 class="display-5">Select e Área de Textos</h1>
+            <section class="form-group p-2">
+                <label for="estados">Estados</label>
+                <select name="" id="estados" class="form-control">
+                    <option value="">Minas Gerais</option>
+                    <option value="">Rio de Janeiro</option>
+                    <option value="">São Paulo</option>
+                    <option value="">...</option>
+                </select>
+            </section>
+
+            <!--Textarea-->
+            <section class="form-group p-2">
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" cols="30" rows="10" class="form-control"></textarea>
+            </section>
+            <hr>
+
+            <!--File Input-->
+            <h1 class="display-5 p-2 text-warning">Selecionar arquivo</h1>
+            <section class="p-2">
+                <label for="formFile" class="form-label">Selecionar um arquivo</label>
+                <input id="formFile" class="form-control" type="file">  
+            </section>
+
+            <!--Slider range-->
+            <h1 class="display-5 p-2">Slider range</h1>
+            <section class="form-group p-2">
+                <label for="customRange1" class="form-range" id="range" min="1" max="5" ></label>
+            </section>
+        </form>
+    </main>
+  
+
+    
+</body>
+</html>
