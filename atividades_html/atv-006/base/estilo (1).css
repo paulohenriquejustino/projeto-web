@@ -1,0 +1,96 @@
+/*Inicio do banner*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/*Customização do banner*/
+.banner {
+
+    /*Zerando os espaçamentos do meu banner*/
+    margin: 0px !important;
+    padding: 0px !important;
+    text-align: center;
+
+    /*Coloque o seu banner aqui usando background-image: */
+    background-color: #454545;
+    height: auto;
+}
+
+/*Usei o flex aqui para centralizar o título do banner*/
+.banner article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    padding: 4%;
+}
+
+/*Aqui você pode customizar seu título do banner*/
+.banner article h1 {
+    font-size: 4.3rem;
+}
+
+/*Fim do banner*/
+
+/*Inicio de projeto*/
+
+/*Customizando os ícones que eu exportei do font awesome (Se quiser pode tirar)*/
+#facebook {
+    font-size: 2rem;
+    color: #4267b3;
+    transition: all 0.3s;
+}
+
+#facebook:hover {
+    opacity: 0.8;
+}
+
+#instagram {
+    font-size: 2rem;
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+    border-radius: 50px;
+    transition: all 0.3s;
+}
+
+#instagram:hover {
+    opacity: 0.8;
+}
+
+#twitter {
+    font-size: 2rem;
+    color: #21c2de;
+    border-radius: 50px;
+    transition: all 0.3s;
+}
+
+#twitter:hover {
+    opacity: 0.8;
+}
+
+/*Classe pra minhas imagens dos projetos*/
+img {
+
+    /*Deixando a minha animação mais suave*/
+    transition: all 0.4s;
+}
+
+/*Quando passar o meu mouse emcima da imagem ela irá ficar um pouco maior*/
+img:hover {
+    transform: scale(1.1);
+}
+
+/*Isso aqui serve para adicionar um sublinhado nos links do meu footer*/
+.hover-underline {
+    transition: all 0.3s linear;
+}
+
+.hover-underline:hover {
+    opacity: 0.9;
+    border-bottom: 1px solid #fff;
+}
+
+/*Fim de projeto*/
+
