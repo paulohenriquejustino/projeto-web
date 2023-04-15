@@ -53,9 +53,16 @@ void main () {
       print('Forma um trinângulo!');
     } else if ((b + a) > c ) {
       print('Forma um trinângulo!');
+    } else if (a <= 0)  {
+      print('O número deve ser maior do que zero.');
+    } else if (b <= 0)  {
+      print('O número deve ser maior do que zero.');
+    } else if (c  <= 0)  {
+      print('O número deve ser maior do que zero.');
     } else {
       print('Não forma um trinângulo!');
     }
+    break;
 
   }
 
