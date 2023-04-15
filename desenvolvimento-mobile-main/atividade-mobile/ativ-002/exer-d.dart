@@ -64,7 +64,45 @@ void main () {
     }
     break;
 
-  }
+    case 3 :
+    //Criando uma lista vazia
+    List<int> numeros = [];
 
+    //Criando uma lista para guardar quantos numeros estao dentro do intervalo
+    List<int> dentrointervalo = [];
+
+    //Criando uma lista para guardar os numeros fora do intervalo
+    List<int> foraintervalo = [];
+
+    //Utilizando for para gerar número de 0 a 100.
+    for (int num = 1; num <= 10; num++) { // Com incrementação!(num++)
+      
+      print('Digite um número: ');
+      int a = int.parse(stdin.readLineSync()!); 
+      numeros.add(a); // adicionando os numeros digitados dentro de uma lista.
+      }
+      print(numeros);
+      // definindo max e min
+      int min =  10;
+      int max = 20;
+
+      numeros.forEach((numero) {
+        if (numero >= min && numero <= max) {
+          print('$numero esta dentro do intervalo');
+          dentrointervalo.add(numero);
+        } else {
+          print('$numero esta fora do intervalo');
+          foraintervalo.add(numero);
+        }
+       });
+
+       int numElementos = dentrointervalo.length;
+       int numElemento = foraintervalo.length;
+       // Saída
+       print("O número de elementos na lista é $numElementos.");
+       print('');
+       print("O número de elementos na lista é $numElemento.");
+       break;
+    }
 
 }
